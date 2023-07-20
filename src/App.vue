@@ -1,28 +1,18 @@
 <template>
   <div>
-    <el-row>
-      <yqytest :data="sellCardList" />
-    </el-row>
+    <card-index />
   </div>
 </template>
 
 <script>
-import yqytest from "./components/yqyTest.vue";
+import cardIndex from "./components/Card/cardIndex.vue";
 export default {
   components: {
-    yqytest,
+    cardIndex,
   },
   data() {
-    return {
-      sellCardList: [],
-    };
+    return {};
   },
 };
 </script>
 
-<style lang="scss" scoped>
-* {
-  margin: 0;
-  padding: 0;
-}
-</style>
