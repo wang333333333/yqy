@@ -1,6 +1,6 @@
 <template>
   <div>
-    <card-copy/>
+    <card-copy :title="'123'"/>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <card-copy></card-copy>
+  <card-copy :title="title" :bgColor="bgColor" :bgImage="bgImage" :icon="icon" :countObj="countObj"></card-copy>
 </template>
 
 <script type="text/ecmascript-6">
