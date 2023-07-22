@@ -1,17 +1,18 @@
 <template>
   <div>
-    <card-index />
+    <card-copy/>
   </div>
 </template>
 
 <script>
-import cardIndex from "./components/Card/cardIndex.vue";
+import cardCopy from "./components/cardCopy/cardCopy.vue";
 export default {
   components: {
-    cardIndex,
+    cardCopy,
   },
   data() {
     return {};
+    
   },
 };
 </script>
